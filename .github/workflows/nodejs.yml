@@ -9,9 +9,11 @@ on:
 jobs:
   build:
 
+    runs-on: ubuntu-latest
+
     steps:
       - name: npm install
         # Install project
         run: |
           make install
-          
+
