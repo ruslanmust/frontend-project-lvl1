@@ -15,5 +15,5 @@ jobs:
       - name: Run linter
         # Run Linter
         run: |
-          makefile lint
+          lint
 
