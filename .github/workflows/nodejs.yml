@@ -9,6 +9,9 @@ on:
 jobs:
   build:
 
-  steps:
-  - name: Run linter
-    run: make lint
+    steps:
+      - name: npm install
+        # Install project
+        run: |
+          make install
+          
