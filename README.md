@@ -7,3 +7,5 @@
 [![Node CI](https://github.com/ruslanmust/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/ruslanmust/frontend-project-lvl1/actions)
 
 https://asciinema.org/a/83vZKt0nuahwb0bNCcAmndfD7
+
+https://asciinema.org/a/qnZbfmKwU8Fqa41cCmGwapyW2
