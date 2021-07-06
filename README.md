@@ -12,5 +12,5 @@
 [Игра: "Калькулятор"](https://asciinema.org/a/qnZbfmKwU8Fqa41cCmGwapyW2)
 ><span style = "color: #9555F9">brain-calc<span>
 
-[Игра "НОД"](https://asciinema.org/a/ORFwlvo8iMU997qZPe43ecyg)
+[Игра "НОД"](https://asciinema.org/a/ORFwlvo8iMU997qZPe43ecyga)
 ><span style = "color: #9555F9">brain-gcd<span>
