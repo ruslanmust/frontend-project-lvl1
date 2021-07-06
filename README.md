@@ -6,6 +6,8 @@
 
 [![Node CI](https://github.com/ruslanmust/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/ruslanmust/frontend-project-lvl1/actions)
 
-https://asciinema.org/a/83vZKt0nuahwb0bNCcAmndfD7
+https://asciinema.org/a/83vZKt0nuahwb0bNCcAmndfD7 - Игра: "Проверка на чётность"
 
-https://asciinema.org/a/qnZbfmKwU8Fqa41cCmGwapyW2
+https://asciinema.org/a/qnZbfmKwU8Fqa41cCmGwapyW2 - Игра: "Калькулятор"
+
+https://asciinema.org/a/ORFwlvo8iMU997qZPe43ecyg - Игра "НОД"
