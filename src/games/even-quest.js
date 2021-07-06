@@ -1,11 +1,14 @@
 import {
-  whatIsName, getRandomInt, descriptionOfGameEven, yourAnswer,
+  whatIsName,
+  getRandomInt,
+  descriptionOfGameEven,
+  yourAnswer,
 } from '../index.js';
 
 const yesWords = ['yes', 'Yes', 'YES', 'yeah', 'rigth'];
 const noWords = ['no', 'No', 'NO', 'nope', 'not'];
 
-export const isEven = () => {
+const isEven = () => {
   const name = whatIsName();
   descriptionOfGameEven();
   let count = 0;
