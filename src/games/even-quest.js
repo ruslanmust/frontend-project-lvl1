@@ -14,7 +14,7 @@ const isEven = () => {
   let count = 0;
 
   while (count < 3) {
-    const randomInt = getRandomInt();
+    const randomInt = getRandomInt(1, 50);
     const even = randomInt % 2 === 0;
 
     console.log(`Question: ${randomInt}`);

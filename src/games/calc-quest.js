@@ -1,5 +1,8 @@
 import {
-  whatIsName, getRandomInt, descriptionOfGameCalc, yourAnswer,
+  whatIsName,
+  getRandomInt,
+  descriptionOfGameCalc,
+  yourAnswer,
 } from '../index.js';
 
 const operators = ['+', '-', '*'];
@@ -11,8 +14,8 @@ const canYouResolveIt = () => {
 
   // начался цикл
   while (count < 3) {
-    const a = getRandomInt();
-    const b = getRandomInt();
+    const a = getRandomInt(1, 50);
+    const b = getRandomInt(1, 50);
     const randomOperator = Math.floor(Math.random() * operators.length); // генер индекс знака
     let result;
     // какой индекс из массива знака выбрать такой кейс
@@ -32,7 +35,7 @@ const canYouResolveIt = () => {
         console.log(`Question: ${a} * ${b}`);
         break;
 
-        // no default
+      // no default
     }
 
     let answer = yourAnswer();

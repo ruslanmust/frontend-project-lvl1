@@ -9,14 +9,11 @@ export const whatIsName = () => {
 };
 
 // рандомные числа в диапазоне
-export const getRandomInt = () => {
-  const getRandom = (min, max) => {
-    Math.ceil(min);
-    Math.floor(max);
-    const randomInt = Math.floor(Math.random() * (max - min + 1)) + min;
-    return randomInt;
-  };
-  return getRandom(1, 50);
+export const getRandomInt = (min, max) => {
+  Math.ceil(min);
+  Math.floor(max);
+  const randomInt = Math.floor(Math.random() * (max - min + 1)) + min;
+  return randomInt;
 };
 
 // описание для игры Калькулятор
@@ -32,6 +29,11 @@ export const descriptionOfGameEven = () => {
 // описание для игры НОД
 export const descriptionOfGameNod = () => {
   console.log('Find the greatest common divisor of given numbers.');
+};
+
+// описание для игры Прогрессия
+export const descriptionOfProgGame = () => {
+  console.log('What number is missing in the progression?');
 };
 
 // ввод ответа и возврат
@@ -57,4 +59,30 @@ export const gcdFinder = (divisible, divisor) => {
     remainder %= newRemainder;
   }
   return newRemainder;
+};
+
+// случайный элемент массива
+export const randomElement = (arr) => {
+  const index = arr[Math.floor(Math.random() * arr.length)];
+  return index;
+};
+
+// случайный индекс массива
+export const randomIndex = (arr) => {
+  const index = Math.floor(Math.random() * arr.length);
+  return index;
+};
+
+// получаем массив для прогрессии
+export const progressiveNumbers = (start, indexForStep) => {
+  let count = 0;
+  let firstNumber = start;
+  const numbers = [];
+
+  while (count < 10) {
+    numbers.push(firstNumber);
+    firstNumber += indexForStep;
+    count += 1;
+  }
+  return numbers;
 };

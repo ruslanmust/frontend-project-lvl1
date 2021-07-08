@@ -14,3 +14,6 @@
 
 [Игра "НОД"](https://asciinema.org/a/ORFwlvo8iMU997qZPe43ecyga)
 ><span style = "color: #9555F9">brain-gcd<span>
+
+[Игра "Арифметическая прогрессия"](https://asciinema.org/a/CzRbTuiQ7C3NhHTekh54sPH4i)
+><span style = "color: #9555F9">brain-gcd<span>

@@ -12,8 +12,8 @@ const greatestCommonDivisor = () => {
   descriptionOfGameNod();
 
   while (count < 3) {
-    const a = getRandomInt();
-    const b = getRandomInt();
+    const a = getRandomInt(1, 50);
+    const b = getRandomInt(1, 50);
     console.log(`Question: ${a} ${b}`);
     let answer = yourAnswer();
     answer = Number(answer);
