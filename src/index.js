@@ -49,21 +49,11 @@ export const yourAnswer = () => {
 
 // выводим нод
 export const gcdFinder = (divisible, divisor) => {
-  let remainder = divisible % divisor;
-  let newRemainder;
-
-  if (remainder === 0) {
-    return divisor;
+  if (divisor !== 0) {
+    const remainder = divisible % divisor;
+    return gcdFinder(divisor, remainder);
   }
-
-  while (remainder !== 0) {
-    newRemainder = divisor % remainder;
-    if (newRemainder === 0) {
-      return remainder;
-    }
-    remainder %= newRemainder;
-  }
-  return newRemainder;
+  return divisible;
 };
 
 // случайный элемент массива
