@@ -17,3 +17,6 @@
 
 [Игра "Арифметическая прогрессия"](https://asciinema.org/a/CzRbTuiQ7C3NhHTekh54sPH4i)
 >If you want to play, enter commmand <span style = "color: #9555F9">**brain-progression**<span>
+
+[Игра "Простое число"](https://asciinema.org/a/q7XWKtX4Xs8UZalpHGe3rOjY1)
+>If you want to play, enter commmand <span style = "color: #9555F9">**brain-prime**<span>

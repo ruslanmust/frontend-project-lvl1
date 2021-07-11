@@ -36,6 +36,11 @@ export const descriptionOfProgGame = () => {
   console.log('What number is missing in the progression?');
 };
 
+// описание для игры Простое число
+export const descriptionOfPrimeGame = () => {
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+};
+
 // ввод ответа и возврат
 export const yourAnswer = () => {
   const answer = readlineSync.question('Your answer: ');
@@ -85,4 +90,22 @@ export const progressiveNumbers = (start, indexForStep) => {
     count += 1;
   }
   return numbers;
+};
+
+// проверяем простое или нет
+export const smallestDivisor = (num) => {
+  if (num === 1) {
+    return false;
+  }
+
+  const iter = (d) => {
+    if (d === num) {
+      return true;
+    }
+    if (num % d === 0) {
+      return false;
+    }
+    return iter(d + 1);
+  };
+  return iter(2);
 };
