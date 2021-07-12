@@ -9,7 +9,7 @@ import {
 const yesWords = ['yes', 'Yes', 'YES', 'yeah', 'rigth'];
 const noWords = ['no', 'No', 'NO', 'nope', 'not'];
 
-const isItPrime = () => {
+export default () => {
   const name = whatIsName();
   descriptionOfPrimeGame();
   let count = 0;
@@ -47,5 +47,3 @@ const isItPrime = () => {
     console.log(`Congratulations, ${name}!`);
   }
 };
-
-export default isItPrime;

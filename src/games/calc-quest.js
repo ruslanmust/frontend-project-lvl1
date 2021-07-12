@@ -7,7 +7,7 @@ import {
 
 const operators = ['+', '-', '*'];
 
-const canYouResolveIt = () => {
+export default () => {
   const name = whatIsName();
   descriptionOfGameCalc();
   let count = 0;
@@ -54,5 +54,3 @@ const canYouResolveIt = () => {
     console.log(`Congratulations, ${name}!`);
   }
 };
-
-export default canYouResolveIt;

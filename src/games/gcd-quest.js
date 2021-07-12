@@ -6,7 +6,7 @@ import {
   gcdFinder,
 } from '../index.js';
 
-const greatestCommonDivisor = () => {
+export default () => {
   let count = 0;
   const name = whatIsName();
   descriptionOfGameNod();
@@ -33,5 +33,3 @@ const greatestCommonDivisor = () => {
     console.log(`Congratulations, ${name}!`);
   }
 };
-
-export default greatestCommonDivisor;

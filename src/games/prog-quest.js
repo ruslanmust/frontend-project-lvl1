@@ -8,7 +8,7 @@ import {
   randomElement,
 } from '../index.js';
 
-const arithmeticProgression = () => {
+export default () => {
   let count = 0;
   const name = whatIsName();
   descriptionOfProgGame();
@@ -40,5 +40,3 @@ const arithmeticProgression = () => {
     console.log(`Congratulations, ${name}!`);
   }
 };
-
-export default arithmeticProgression;

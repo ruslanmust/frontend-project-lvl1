@@ -8,7 +8,7 @@ import {
 const yesWords = ['yes', 'Yes', 'YES', 'yeah', 'rigth'];
 const noWords = ['no', 'No', 'NO', 'nope', 'not'];
 
-const isEven = () => {
+export default () => {
   const name = whatIsName();
   descriptionOfGameEven();
   let count = 0;
@@ -46,5 +46,3 @@ const isEven = () => {
     console.log(`Congratulations, ${name}!`);
   }
 };
-
-export default isEven;
